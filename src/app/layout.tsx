@@ -15,6 +15,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sampson & Sons",
   description: "Craig Sampson HVAC Technician and power washing",
+  openGraph: {
+    title: "Sampson & Sons",
+    description: "Craig Sampson HVAC Technician and power washing",
+    images: ["/photo3.jpeg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sampson & Sons",
+    description: "Craig Sampson HVAC Technician and power washing",
+    images: ["/photo3.jpeg"],
+  },
 };
 
 export default function RootLayout({
